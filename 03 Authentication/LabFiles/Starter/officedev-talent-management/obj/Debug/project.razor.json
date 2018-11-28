@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\DevScope\\Demos\\TrainingContent\\Teams\\03 Authentication\\LabFiles\\Starter\\officedev-talent-management\\officedev-talent-management.csproj",
+  "TargetFramework": "v4.6",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

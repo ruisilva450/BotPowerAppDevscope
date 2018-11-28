@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\DevScope\\Demos\\TrainingContent\\Teams\\05 Microsoft Teams apps - Advanced Techniques\\Demos\\01-advanced-bot\\solution\\teams-m5-bot\\teams-m5-bot.csproj",
+  "TargetFramework": "v4.6",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

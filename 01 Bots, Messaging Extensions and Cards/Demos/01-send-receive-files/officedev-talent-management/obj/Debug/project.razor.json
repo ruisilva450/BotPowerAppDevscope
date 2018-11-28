@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\DevScope\\Demos\\Teams\\01 Bots, Messaging Extensions and Cards\\Demos\\01-send-receive-files\\officedev-talent-management\\officedev-talent-management.csproj",
+  "TargetFramework": "v4.6",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
