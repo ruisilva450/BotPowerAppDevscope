@@ -10,8 +10,8 @@ public class CommandHandlers
     if (ctx != null)
     {
       JObject scheduleRequest = JObject.Parse((string)ctx["body"]);
-      DateTime scheduleDate = DateTime.Parse((string)scheduleRequest["date"]);
-
+      DateTime scheduleDate = DateTime.Parse((string)scheduleRequest["date"], CultureInfo.InvariantCulture);
+      
       // make call to the Microsoft Graph to schedule the interview
 
       await MessageHelpers.SendMessage(context, $"Interview scheduled for position {scheduleRequest["reqId"]} with {scheduleRequest["name"]} on {scheduleDate.ToShortDateString()}");

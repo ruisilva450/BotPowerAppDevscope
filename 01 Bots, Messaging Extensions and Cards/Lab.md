@@ -24,6 +24,10 @@ As Microsoft Teams is an entirely cloud-based product, it requires all services 
 
 This lab uses [ngrok](https://ngrok.com) for tunneling publicly-available HTTPS endpoints to a web server running locally on the developer workstation. ngrok is a single-file download that is run from a console.
 
+If you have chocolatey installed on your machine you can just use:
+```choco install -y ngrok.portable```
+
+
 #### Bot template for Visual Studio 2017
 
 Download and install the [bot template for C#](https://github.com/Microsoft/BotFramework-Samples/tree/master/docs-samples/CSharp/Simple-LUIS-Notes-Sample/VSIX) from Github. Additional step-by-step information for creating a bot to run locally is available on the [Create a bot with the Bot Builder SDK for .NET page](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-quickstart?view=azure-bot-service-3.0) in the Azure Bot Service documentation.
@@ -933,7 +937,7 @@ This section of the lab extends the bot to answer specific commands with Cards t
     #endregion
     ```
 
-1. In the **Solution Explorer** tool window, add a new lass named **CommandHandlers** to the project.
+1. In the **Solution Explorer** tool window, add a new class named **CommandHandlers** to the project.
 
 1. Replace the generated `CommandHandlers` class with the code in the **[Lab Files\CommandHandlers.cs](./Lab%20Files/CommandHandlers.cs)** file.
 
