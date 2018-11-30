@@ -30,7 +30,7 @@ If you have chocolatey installed on your machine you can just use:
 
 #### Bot template for Visual Studio 2017
 
-Download and install the [bot template for C#](https://github.com/Microsoft/BotFramework-Samples/tree/master/docs-samples/CSharp/Simple-LUIS-Notes-Sample/VSIX) from Github. Additional step-by-step information for creating a bot to run locally is available on the [Create a bot with the Bot Builder SDK for .NET page](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-quickstart?view=azure-bot-service-3.0) in the Azure Bot Service documentation.
+Download and install the [bot template for C#](https://github.com/Microsoft/BotFramework-Samples/tree/master/docs-samples/CSharp/Simple-LUIS-Notes-Sample/VSIX) from Github (You can use the zip in this repository "BotBuilderVSIX_V3.zip"). Additional step-by-step information for creating a bot to run locally is available on the [Create a bot with the Bot Builder SDK for .NET page](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-quickstart?view=azure-bot-service-3.0) in the Azure Bot Service documentation.
 
   > **Note:** This lab uses the BotBuilder v3 SDK. BotBuilder v4 SDK was recently released. All new development should be targeting the BotBuilder v4 SDK. In our next release, this sample will be updated to the BotBuilder v4 SDK.
 
